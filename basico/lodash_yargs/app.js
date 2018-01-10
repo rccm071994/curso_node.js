@@ -13,7 +13,7 @@ if (argv.usuario === 'MitoCode') {
 
         /*let resultado = _.assign(x,y);
         console.log(resultado);
-        //_.times(3, ()=> console.log('Suscribete'));*/
+        //_.times(3, ()=> console.log('Suscribete'));   */
 
         let resultado = _.find(z, {nombre: "Jaime", apellido: "Medina"});
         console.log(resultado);
